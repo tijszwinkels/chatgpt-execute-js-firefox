@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "ChatGPT Execute Code button",
+  "version": "1.0.0",
+  "description": "In ChatGPT, js code-blocks get a 'Execute Code' button, which allows js-code to be executed immediately in the context of the browser.",
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*", "http://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["activeTab"]
+}
+
