@@ -5,10 +5,14 @@
   "description": "In ChatGPT, js code-blocks get a 'Execute Code' button, which allows js-code to be executed immediately in the context of the browser.",
   "content_scripts": [
     {
-      "matches": ["https://chat.openai.com/*", "http://*/*"],
+      "matches": ["https://chat.openai.com/*"],
       "js": ["content.js"]
     }
   ],
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab"],
+  "icons": {
+    "48": "icon.png",
+    "96": "icon@2x.png"
+  }
 }
 
