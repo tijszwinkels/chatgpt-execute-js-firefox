@@ -13,7 +13,8 @@ Displays the execution results as part of the ChatGPT conversation, asking for f
 
 ## Installation
 
-Can (hopefully) soon be installed from the Firefox Add-ons website!
+- Go to https://addons.mozilla.org/en-US/firefox/addon/chatgpt-execute-code-button/
+- Click 'Add to Firefox'
 
 ## Manual Installation
 
